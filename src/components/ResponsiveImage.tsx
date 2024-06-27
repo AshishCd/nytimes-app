@@ -1,8 +1,8 @@
 import React from 'react';
-import { Media } from '../interface/type';
+import { IMedia } from '../interface/type';
 
 interface ResponsiveImageProps {
-    media: Media[];
+    media: IMedia[];
     isTypeSidebar: boolean;
 }
 
