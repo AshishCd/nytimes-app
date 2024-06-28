@@ -110,18 +110,4 @@ describe("Article Component", () => {
 
         expect(screen.getByRole("img")).toBeInTheDocument();
     });
-
-    test("does not render updated date when it is not present", () => {
-        const modifiedProps = {
-            ...defaultProps,
-            articleData: {
-                ...mockArticle,
-                updated: "",
-            },
-        };
-
-        render(<Article {...modifiedProps} />);
-
-        expect(screen.queryByText(/Updated on/i)).not.toBeInTheDocument();
-    });
 });

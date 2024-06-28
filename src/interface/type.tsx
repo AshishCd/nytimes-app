@@ -43,7 +43,6 @@ export interface IArticleProps {
 
 export interface IMostViewedArticlesProps {
   day: number;
-  heading: string;
   type?: string;
 }
 

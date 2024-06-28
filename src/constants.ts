@@ -1,3 +1,3 @@
 export const Constants = {
-    SIDE_BAR: "sidebar"
-}
+    SIDE_BAR: "sidebar",
+};
