@@ -1,6 +1,5 @@
 import { render } from "@testing-library/react";
 import { MostViewedArticles } from "../components/MostViewedArticles";
-// import user from "@testing-library/user-event";
 
 describe("Most Viewed Article", () => {
   test("renders MopstViewedArticle component without crashing", () => {

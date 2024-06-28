@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   line-clamp: 3; /* Optional: for future support */
-  max-height: calc(3 * 1.5em); /* Assuming line height is 1.5 */
+  max-height: calc(3 * 1.5em);
   text-overflow: ellipsis;
 }
 
