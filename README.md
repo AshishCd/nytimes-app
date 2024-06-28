@@ -1,4 +1,5 @@
 # New York Times Moat Popular Articles
+### Live Demo : https://nytimes-mostpopular-app.netlify.app/
 ![assingmennt-screenshot](https://github.com/AshishCd/nytimes-app/assets/39944703/7870396f-4e3f-4d83-90b7-7994a533af7e)
 ![assignmennt-screenshot-2](https://github.com/AshishCd/nytimes-app/assets/39944703/d27e824b-9340-4a27-8a83-352c32db0f1e)
 
