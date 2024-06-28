@@ -25,6 +25,11 @@ To Build a Project from the Command Line
 ## To Run unit test
 #### npm run test
 
+## To run coverage
+### npm run coverage
+<img width="956" alt="coverage" src="https://github.com/AshishCd/nytimes-app/assets/39944703/eccca285-8dbc-4449-9e51-85166482ec08">
+
+
 ### As SonarQube is a paid service we can't download the report from it unless we have an active subscription (I am using a commercial plan), find the below sonarqube report test 
 <img width="948" alt="sonarqube-report" src="https://github.com/AshishCd/nytimes-app/assets/39944703/d7fda965-6c76-4e00-921c-f67e3457fe0e">
 
