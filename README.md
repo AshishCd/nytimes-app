@@ -6,7 +6,7 @@
  step  by step instructions on how to run the Project:
 
  After you clone the project please follow the below instructions:
- # npm install
+ #npm install
 
 ## Below are the Bonus Activities that you can follow
 #To Build a Project from the Command Line
