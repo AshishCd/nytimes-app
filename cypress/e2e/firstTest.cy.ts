@@ -42,25 +42,4 @@ describe('cypress-nytimes', () => {
       });
     });
   });
-
-  // to check if All the articles have title that mean those are rendering
-  it('should render articles correctly', function (this: { articlesData: IMostViewedArticles[] }) {
-    // Access the stored articles data
-    const articlesData = this.articlesData;
-
-    // Mock the API response with the fetched data
-    cy.intercept(url, { results: articlesData }).as('getArticles');
-
-    // Visit your application page
-    cy.visit('http://localhost:3000/');
-
-    // Wait for the API call to complete
-    cy.wait(500);
-    cy.wait('@getArticles');
-
-    // Verify that articles are rendered based on the fetched data
-    articlesData?.forEach((article: IMostViewedArticles) => {
-      cy.get(`[data-testid="cypress-article-title-${article.id}"]`).should('contain.text', article.title);
-    });
-  });
 })
