@@ -35,4 +35,12 @@ To Build a Project from the Command Line
 ### As SonarQube is a paid service we can't download the report from it unless we have an active subscription (I am using a commercial plan), find the below sonarqube report test 
 <img width="948" alt="sonarqube-report" src="https://github.com/AshishCd/nytimes-app/assets/39944703/d7fda965-6c76-4e00-921c-f67e3457fe0e">
 
+## To run Cypress Test
+### npx cypress open (to launch the cypress simulator)
+<img width="883" alt="cypress-select-ete" src="https://github.com/AshishCd/nytimes-app/assets/39944703/50b8d956-f7d2-409b-8a3e-13ebe9d0a9cd">
+<img width="881" alt="cypress select browser" src="https://github.com/AshishCd/nytimes-app/assets/39944703/494fefb1-9389-4f7d-b085-31fc6971c924">
+<img width="959" alt="cypress-select test" src="https://github.com/AshishCd/nytimes-app/assets/39944703/23e29f5b-6095-4243-9cb3-ec1dd60e9104">
+
+
+
 
