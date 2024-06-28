@@ -19,10 +19,10 @@ To Build a Project from the Command Line
 #### npm install -g serve
 #### serve -s build
 
-## To Run Lint (to check error)
+## To run Lint (to check error)
 #### npm run lint 
 
-## To Run unit test
+## To run unit test
 #### npm run test
 
 ## To run coverage
