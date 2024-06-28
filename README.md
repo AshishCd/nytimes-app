@@ -26,7 +26,8 @@ To Build a Project from the Command Line
 #### npm run test
 
 ## To run coverage
-### npm run coverage
+#### npm run coverage
+
 <img width="956" alt="coverage" src="https://github.com/AshishCd/nytimes-app/assets/39944703/eccca285-8dbc-4449-9e51-85166482ec08">
 
 
