@@ -76,7 +76,7 @@ export class MostViewedArticles extends React.Component<
     }
 
     if (error) {
-      return <div>Error: {error.message}</div>;
+      return <div data-testid="error-div">Error: {error.message}</div>;
     }
 
     return (

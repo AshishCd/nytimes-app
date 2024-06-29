@@ -11,7 +11,7 @@ describe('cypress-nytimes', () => {
     cy.visit('http://localhost:3000/');
 
     cy.get('[data-testid="cypress-main-header"]').should("exist").should("have.text", "Today's Most Popular Articles");
-    cy.get('[data-testid="cypress-sidebar-header"]').should("exist").should("have.text", "Past week");
+    cy.get('[data-testid="cypress-sidebar-header"]').should("exist").should("have.text", "Past Week");
   });
 
   beforeEach(() => {
