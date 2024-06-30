@@ -8,6 +8,7 @@
 
  After you clone the project please follow the below instructions:
  #### `npm install`
+ #### Important: Please rename .env.example file to .env so that it can access the API keys
 
 ## Below are the Bonus Activities that you can follow
 To Build a Project from the Command Line
